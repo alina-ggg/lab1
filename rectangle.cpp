@@ -25,9 +25,14 @@ int main ()
     cin >> length;
     cout << "Введите ширину: ";
     cin >> width;
-    cout << "Периметр: " << perimeter() << endl;
-    cout << "Площадь: " << square() << endl;
-    cout << "Диагональ: " << diagonal() << endl;
+    if (length<0 || width<0) {
+        cout << "Ошибка: не может быть отрицательная сторона" << endl;
+    }
+    else {
+        cout << "Периметр: " << perimeter() << endl;
+        cout << "Площадь: " << square() << endl;
+        cout << "Диагональ: " << diagonal() << endl;
+    }
     return 0;
 
 }
