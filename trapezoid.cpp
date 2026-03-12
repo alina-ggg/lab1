@@ -17,10 +17,13 @@ double midLine(double a, double b) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 int main() {
     double a, b, c, d, h;
     
 =======
+=======
+>>>>>>> Roma
 // Функция проверки существования трапеции
 bool isTrapezoidValid(double a, double b, double c, double d, double h) {
     // 1. Проверка на положительность
@@ -50,6 +53,9 @@ int main() {
     double a, b, c, d, h;
     
     cout << "Вычисление параметров трапеции" << endl;
+<<<<<<< HEAD
+>>>>>>> Roma
+=======
 >>>>>>> Roma
     cout << "Введите верхнее основание (a): ";
     cin >> a;
@@ -63,8 +69,11 @@ int main() {
     cin >> h;
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     cout << "\nПериметр трапеции: " << perimeter(a, b, c, d) << endl;
 =======
+=======
+>>>>>>> Roma
     // Проверяем, существует ли такая трапеция
     if (!isTrapezoidValid(a, b, c, d, h)) {
         return 1; // Завершаем программу с ошибкой
@@ -73,6 +82,9 @@ int main() {
     // Если проверка пройдена — вычисляем и выводим результаты
     cout << "\nРезультаты" << endl;
     cout << "Периметр трапеции: " << perimeter(a, b, c, d) << endl;
+<<<<<<< HEAD
+>>>>>>> Roma
+=======
 >>>>>>> Roma
     cout << "Площадь трапеции: " << area(a, b, h) << endl;
     cout << "Средняя линия: " << midLine(a, b) << endl;
